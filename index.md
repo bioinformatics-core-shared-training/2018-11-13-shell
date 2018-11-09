@@ -271,6 +271,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
+Participants will need their own laptop connectable to EduRoam (if non-CRUKCI), and will log into the CRUK training instance using their Terminal on MacOS or Putty on Windows. No other software needs to be installed.
+</p>
+<p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
