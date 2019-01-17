@@ -6,10 +6,10 @@ address: "Room 009"      # full street address of workshop (e.g., "Room A, 123 F
 country: "UK"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "52.176783,0.135569"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "13 Nov 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "25 Jan 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "13:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-11-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-11-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2019-01-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2019-01-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jon Marshall", "Marc O'Brian", "Anne Pajon"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Mark Fernandes"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Mark.Fernandes@cruk.cam.ac.uk", "Jon.Marshall@cruk.cam.ac.uk", "Marc.OBrien@cruk.cam.ac.uk", "Anne.Pajon@cruk.cam.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -116,7 +116,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
+  on. <b>It MUST be able to connect to the Eduroam wifi network.</b> They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
