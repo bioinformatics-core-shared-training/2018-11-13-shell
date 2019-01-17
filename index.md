@@ -10,7 +10,7 @@ humandate: "25 Jan 2019"    # human-readable dates for the workshop (e.g., "Feb 
 humantime: "13:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-01-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-01-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jon Marshall", "Marc O'Brian", "Anne Pajon"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Jon Marshall", "Marc O'Brien", "Anne Pajon"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Mark Fernandes"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Mark.Fernandes@cruk.cam.ac.uk", "Jon.Marshall@cruk.cam.ac.uk", "Marc.OBrien@cruk.cam.ac.uk", "Anne.Pajon@cruk.cam.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:   https://public.etherpad-mozilla.org/p/CRUK_Linux_11_19          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
