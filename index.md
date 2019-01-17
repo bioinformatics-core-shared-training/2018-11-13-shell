@@ -183,7 +183,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>CRUK-CI feedback survey - <a href="https://www.surveymonkey.co.uk/r/LinuxJan19">please fill in at end of course</a></p> 
+<p>To help the Carpentries organisation - Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
